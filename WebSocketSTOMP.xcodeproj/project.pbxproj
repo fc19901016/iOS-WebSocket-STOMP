@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45318EE323ACC80400A37F63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45318EE223ACC80400A37F63 /* AppDelegate.m */; };
+		45318EE623ACC80400A37F63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45318EE523ACC80400A37F63 /* ViewController.m */; };
+		45318EE923ACC80400A37F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45318EE723ACC80400A37F63 /* Main.storyboard */; };
+		45318EEB23ACC80500A37F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45318EEA23ACC80500A37F63 /* Assets.xcassets */; };
+		45318EEE23ACC80500A37F63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45318EEC23ACC80500A37F63 /* LaunchScreen.storyboard */; };
+		45318EF123ACC80500A37F63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45318EF023ACC80500A37F63 /* main.m */; };
+		45318EFB23ACC80500A37F63 /* WebSocketSTOMPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45318EFA23ACC80500A37F63 /* WebSocketSTOMPTests.m */; };
+		45318F0623ACC80500A37F63 /* WebSocketSTOMPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45318F0523ACC80500A37F63 /* WebSocketSTOMPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45318EF723ACC80500A37F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45318ED623ACC80400A37F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45318EDD23ACC80400A37F63;
+			remoteInfo = WebSocketSTOMP;
+		};
+		45318F0223ACC80500A37F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45318ED623ACC80400A37F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45318EDD23ACC80400A37F63;
+			remoteInfo = WebSocketSTOMP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45318EDE23ACC80400A37F63 /* WebSocketSTOMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebSocketSTOMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45318EE123ACC80400A37F63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45318EE223ACC80400A37F63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45318EE423ACC80400A37F63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45318EE523ACC80400A37F63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45318EE823ACC80400A37F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45318EEA23ACC80500A37F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45318EED23ACC80500A37F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45318EEF23ACC80500A37F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45318EF023ACC80500A37F63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45318EF623ACC80500A37F63 /* WebSocketSTOMPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSocketSTOMPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45318EFA23ACC80500A37F63 /* WebSocketSTOMPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSocketSTOMPTests.m; sourceTree = "<group>"; };
+		45318EFC23ACC80500A37F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45318F0123ACC80500A37F63 /* WebSocketSTOMPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSocketSTOMPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45318F0523ACC80500A37F63 /* WebSocketSTOMPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSocketSTOMPUITests.m; sourceTree = "<group>"; };
+		45318F0723ACC80500A37F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45318EDB23ACC80400A37F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45318EF323ACC80500A37F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45318EFE23ACC80500A37F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45318ED523ACC80400A37F63 = {
+			isa = PBXGroup;
+			children = (
+				45318EE023ACC80400A37F63 /* WebSocketSTOMP */,
+				45318EF923ACC80500A37F63 /* WebSocketSTOMPTests */,
+				45318F0423ACC80500A37F63 /* WebSocketSTOMPUITests */,
+				45318EDF23ACC80400A37F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45318EDF23ACC80400A37F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45318EDE23ACC80400A37F63 /* WebSocketSTOMP.app */,
+				45318EF623ACC80500A37F63 /* WebSocketSTOMPTests.xctest */,
+				45318F0123ACC80500A37F63 /* WebSocketSTOMPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45318EE023ACC80400A37F63 /* WebSocketSTOMP */ = {
+			isa = PBXGroup;
+			children = (
+				45318EE123ACC80400A37F63 /* AppDelegate.h */,
+				45318EE223ACC80400A37F63 /* AppDelegate.m */,
+				45318EE423ACC80400A37F63 /* ViewController.h */,
+				45318EE523ACC80400A37F63 /* ViewController.m */,
+				45318EE723ACC80400A37F63 /* Main.storyboard */,
+				45318EEA23ACC80500A37F63 /* Assets.xcassets */,
+				45318EEC23ACC80500A37F63 /* LaunchScreen.storyboard */,
+				45318EEF23ACC80500A37F63 /* Info.plist */,
+				45318EF023ACC80500A37F63 /* main.m */,
+			);
+			path = WebSocketSTOMP;
+			sourceTree = "<group>";
+		};
+		45318EF923ACC80500A37F63 /* WebSocketSTOMPTests */ = {
+			isa = PBXGroup;
+			children = (
+				45318EFA23ACC80500A37F63 /* WebSocketSTOMPTests.m */,
+				45318EFC23ACC80500A37F63 /* Info.plist */,
+			);
+			path = WebSocketSTOMPTests;
+			sourceTree = "<group>";
+		};
+		45318F0423ACC80500A37F63 /* WebSocketSTOMPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45318F0523ACC80500A37F63 /* WebSocketSTOMPUITests.m */,
+				45318F0723ACC80500A37F63 /* Info.plist */,
+			);
+			path = WebSocketSTOMPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45318EDD23ACC80400A37F63 /* WebSocketSTOMP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45318F0A23ACC80500A37F63 /* Build configuration list for PBXNativeTarget "WebSocketSTOMP" */;
+			buildPhases = (
+				45318EDA23ACC80400A37F63 /* Sources */,
+				45318EDB23ACC80400A37F63 /* Frameworks */,
+				45318EDC23ACC80400A37F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebSocketSTOMP;
+			productName = WebSocketSTOMP;
+			productReference = 45318EDE23ACC80400A37F63 /* WebSocketSTOMP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45318EF523ACC80500A37F63 /* WebSocketSTOMPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45318F0D23ACC80500A37F63 /* Build configuration list for PBXNativeTarget "WebSocketSTOMPTests" */;
+			buildPhases = (
+				45318EF223ACC80500A37F63 /* Sources */,
+				45318EF323ACC80500A37F63 /* Frameworks */,
+				45318EF423ACC80500A37F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45318EF823ACC80500A37F63 /* PBXTargetDependency */,
+			);
+			name = WebSocketSTOMPTests;
+			productName = WebSocketSTOMPTests;
+			productReference = 45318EF623ACC80500A37F63 /* WebSocketSTOMPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45318F0023ACC80500A37F63 /* WebSocketSTOMPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45318F1023ACC80500A37F63 /* Build configuration list for PBXNativeTarget "WebSocketSTOMPUITests" */;
+			buildPhases = (
+				45318EFD23ACC80500A37F63 /* Sources */,
+				45318EFE23ACC80500A37F63 /* Frameworks */,
+				45318EFF23ACC80500A37F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45318F0323ACC80500A37F63 /* PBXTargetDependency */,
+			);
+			name = WebSocketSTOMPUITests;
+			productName = WebSocketSTOMPUITests;
+			productReference = 45318F0123ACC80500A37F63 /* WebSocketSTOMPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45318ED623ACC80400A37F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "冯攀";
+				TargetAttributes = {
+					45318EDD23ACC80400A37F63 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					45318EF523ACC80500A37F63 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 45318EDD23ACC80400A37F63;
+					};
+					45318F0023ACC80500A37F63 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 45318EDD23ACC80400A37F63;
+					};
+				};
+			};
+			buildConfigurationList = 45318ED923ACC80400A37F63 /* Build configuration list for PBXProject "WebSocketSTOMP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45318ED523ACC80400A37F63;
+			productRefGroup = 45318EDF23ACC80400A37F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45318EDD23ACC80400A37F63 /* WebSocketSTOMP */,
+				45318EF523ACC80500A37F63 /* WebSocketSTOMPTests */,
+				45318F0023ACC80500A37F63 /* WebSocketSTOMPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45318EDC23ACC80400A37F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45318EEE23ACC80500A37F63 /* LaunchScreen.storyboard in Resources */,
+				45318EEB23ACC80500A37F63 /* Assets.xcassets in Resources */,
+				45318EE923ACC80400A37F63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45318EF423ACC80500A37F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45318EFF23ACC80500A37F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45318EDA23ACC80400A37F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45318EE623ACC80400A37F63 /* ViewController.m in Sources */,
+				45318EF123ACC80500A37F63 /* main.m in Sources */,
+				45318EE323ACC80400A37F63 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45318EF223ACC80500A37F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45318EFB23ACC80500A37F63 /* WebSocketSTOMPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45318EFD23ACC80500A37F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45318F0623ACC80500A37F63 /* WebSocketSTOMPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45318EF823ACC80500A37F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45318EDD23ACC80400A37F63 /* WebSocketSTOMP */;
+			targetProxy = 45318EF723ACC80500A37F63 /* PBXContainerItemProxy */;
+		};
+		45318F0323ACC80500A37F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45318EDD23ACC80400A37F63 /* WebSocketSTOMP */;
+			targetProxy = 45318F0223ACC80500A37F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45318EE723ACC80400A37F63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45318EE823ACC80400A37F63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45318EEC23ACC80500A37F63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45318EED23ACC80500A37F63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45318F0823ACC80500A37F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45318F0923ACC80500A37F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45318F0B23ACC80500A37F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2V2H39UC8;
+				INFOPLIST_FILE = WebSocketSTOMP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fengpan.WebSocketSTOMP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45318F0C23ACC80500A37F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2V2H39UC8;
+				INFOPLIST_FILE = WebSocketSTOMP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fengpan.WebSocketSTOMP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45318F0E23ACC80500A37F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2V2H39UC8;
+				INFOPLIST_FILE = WebSocketSTOMPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fengpan.WebSocketSTOMPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebSocketSTOMP.app/WebSocketSTOMP";
+			};
+			name = Debug;
+		};
+		45318F0F23ACC80500A37F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2V2H39UC8;
+				INFOPLIST_FILE = WebSocketSTOMPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fengpan.WebSocketSTOMPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebSocketSTOMP.app/WebSocketSTOMP";
+			};
+			name = Release;
+		};
+		45318F1123ACC80500A37F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2V2H39UC8;
+				INFOPLIST_FILE = WebSocketSTOMPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fengpan.WebSocketSTOMPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebSocketSTOMP;
+			};
+			name = Debug;
+		};
+		45318F1223ACC80500A37F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2V2H39UC8;
+				INFOPLIST_FILE = WebSocketSTOMPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fengpan.WebSocketSTOMPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebSocketSTOMP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45318ED923ACC80400A37F63 /* Build configuration list for PBXProject "WebSocketSTOMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45318F0823ACC80500A37F63 /* Debug */,
+				45318F0923ACC80500A37F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45318F0A23ACC80500A37F63 /* Build configuration list for PBXNativeTarget "WebSocketSTOMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45318F0B23ACC80500A37F63 /* Debug */,
+				45318F0C23ACC80500A37F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45318F0D23ACC80500A37F63 /* Build configuration list for PBXNativeTarget "WebSocketSTOMPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45318F0E23ACC80500A37F63 /* Debug */,
+				45318F0F23ACC80500A37F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45318F1023ACC80500A37F63 /* Build configuration list for PBXNativeTarget "WebSocketSTOMPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45318F1123ACC80500A37F63 /* Debug */,
+				45318F1223ACC80500A37F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45318ED623ACC80400A37F63 /* Project object */;
+}
