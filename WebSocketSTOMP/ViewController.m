@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WebSocketManager.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [[WebSocketManager shareInstance] connect];
 }
 
 

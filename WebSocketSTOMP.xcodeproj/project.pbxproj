@@ -15,6 +15,9 @@
 		45318EF123ACC80500A37F63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45318EF023ACC80500A37F63 /* main.m */; };
 		45318EFB23ACC80500A37F63 /* WebSocketSTOMPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45318EFA23ACC80500A37F63 /* WebSocketSTOMPTests.m */; };
 		45318F0623ACC80500A37F63 /* WebSocketSTOMPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45318F0523ACC80500A37F63 /* WebSocketSTOMPUITests.m */; };
+		45318F1E23ACC8DB00A37F63 /* WebSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45318F1C23ACC8DB00A37F63 /* WebSocketManager.m */; };
+		45318F2923ACCAC800A37F63 /* JFRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 45318F2823ACCAC800A37F63 /* JFRWebSocket.m */; };
+		45318F2C23ACCB0B00A37F63 /* WebsocketStompKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 45318F2B23ACCB0B00A37F63 /* WebsocketStompKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		45318F0123ACC80500A37F63 /* WebSocketSTOMPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSocketSTOMPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45318F0523ACC80500A37F63 /* WebSocketSTOMPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSocketSTOMPUITests.m; sourceTree = "<group>"; };
 		45318F0723ACC80500A37F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45318F1C23ACC8DB00A37F63 /* WebSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSocketManager.m; sourceTree = "<group>"; };
+		45318F1D23ACC8DB00A37F63 /* WebSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketManager.h; sourceTree = "<group>"; };
+		45318F2723ACCAC800A37F63 /* JFRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRWebSocket.h; sourceTree = "<group>"; };
+		45318F2823ACCAC800A37F63 /* JFRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRWebSocket.m; sourceTree = "<group>"; };
+		45318F2A23ACCB0B00A37F63 /* WebsocketStompKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsocketStompKit.h; sourceTree = "<group>"; };
+		45318F2B23ACCB0B00A37F63 /* WebsocketStompKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsocketStompKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,9 @@
 		45318EE023ACC80400A37F63 /* WebSocketSTOMP */ = {
 			isa = PBXGroup;
 			children = (
+				45318F1F23ACCAA400A37F63 /* JFRWebSocket */,
+				45318F2223ACCAA400A37F63 /* WebsocketStompKit */,
+				45318F1B23ACC8DB00A37F63 /* WebSocketManager */,
 				45318EE123ACC80400A37F63 /* AppDelegate.h */,
 				45318EE223ACC80400A37F63 /* AppDelegate.m */,
 				45318EE423ACC80400A37F63 /* ViewController.h */,
@@ -130,6 +142,33 @@
 				45318F0723ACC80500A37F63 /* Info.plist */,
 			);
 			path = WebSocketSTOMPUITests;
+			sourceTree = "<group>";
+		};
+		45318F1B23ACC8DB00A37F63 /* WebSocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				45318F1D23ACC8DB00A37F63 /* WebSocketManager.h */,
+				45318F1C23ACC8DB00A37F63 /* WebSocketManager.m */,
+			);
+			path = WebSocketManager;
+			sourceTree = "<group>";
+		};
+		45318F1F23ACCAA400A37F63 /* JFRWebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				45318F2723ACCAC800A37F63 /* JFRWebSocket.h */,
+				45318F2823ACCAC800A37F63 /* JFRWebSocket.m */,
+			);
+			path = JFRWebSocket;
+			sourceTree = "<group>";
+		};
+		45318F2223ACCAA400A37F63 /* WebsocketStompKit */ = {
+			isa = PBXGroup;
+			children = (
+				45318F2A23ACCB0B00A37F63 /* WebsocketStompKit.h */,
+				45318F2B23ACCB0B00A37F63 /* WebsocketStompKit.m */,
+			);
+			path = WebsocketStompKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +303,10 @@
 			files = (
 				45318EE623ACC80400A37F63 /* ViewController.m in Sources */,
 				45318EF123ACC80500A37F63 /* main.m in Sources */,
+				45318F2C23ACCB0B00A37F63 /* WebsocketStompKit.m in Sources */,
 				45318EE323ACC80400A37F63 /* AppDelegate.m in Sources */,
+				45318F2923ACCAC800A37F63 /* JFRWebSocket.m in Sources */,
+				45318F1E23ACC8DB00A37F63 /* WebSocketManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
